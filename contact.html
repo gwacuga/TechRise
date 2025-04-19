@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.jpg">
+  <title>TechRise - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="images/logo.jpg" alt="TechRise Logo">
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="programs.html">Programs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <header class="page-header">
+    
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you!</p>
+    </header>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <p>📞 Phone: <a href="tel:0782344021">0782344021</a></p>
+      <p>✉️ Email: <a href="mailto:techriseinitiative@gmail.com">techriseinitiative@gmail.com</a></p>
+    </div>
+
+    <!-- Contact Form -->
+    <form 
+      action="mailto:techriseinitiative@gmail.com" 
+      method="post" 
+      enctype="text/plain" 
+      class="contact-form"
+    >
+      <label>
+        Name
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 TechRise. All rights reserved.
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
