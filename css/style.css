@@ -330,3 +330,54 @@ footer {
     font-size: 2rem;
   }
 }
+
+/* ——————————————————————
+   About section on Home
+   —————————————————————— */
+   .about-home {
+    background: #ffffff;
+    padding: 2rem 1rem;
+  }
+  .about-home .about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-home h2 {
+    color: #023020;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .about-home p {
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  /* ——————————————————————
+     Home Gallery
+     —————————————————————— */
+  .home-gallery {
+    padding: 2rem 1rem;
+  }
+  .home-gallery h2 {
+    text-align: center;
+    color: #023020;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
