@@ -19,7 +19,7 @@
     flex-direction: column;
     min-height: 100vh;
     font-family: Arial, sans-serif;
-    background: #e0dbbf;
+    background: #FFFFFF;
   }
   
   /* ==============================
@@ -131,6 +131,17 @@
     flex: 1;
     padding: 2rem;
   }
+
+  /* ==============================
+   About Us – make text bold, black, larger
+   ============================== */
+.about-home p {
+  color: #000000;          /* deep black */
+  font-weight: bold;    /* bold text */
+  font-size: 1.25rem;   /* increase size (20px if base font is 16px) */
+  line-height: 1.6;     /* optional—keep your comfortable line-height */
+}
+
   
   /* ==============================
      Forms
@@ -199,6 +210,18 @@
     list-style-type: disc;
     padding-left: 1.5rem;
   }
+  /* ==============================
+   About Page Paragraphs: bold, black, larger
+   ============================== */
+.about-content p,
+.about-vision p,
+.about-mission p {
+  color: #000;           /* deep black */
+  font-weight: bold;     /* bold text */
+  font-size: 1.25rem;    /* ~20px if base is 16px; adjust as you like */
+  line-height: 1.6;      /* keeps your nice spacing */
+}
+
   
   /* Programs */
   .programs-content {
